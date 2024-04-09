@@ -1,0 +1,14 @@
+name: xd
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  hola:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        run: |
+          echo "hola mundo"

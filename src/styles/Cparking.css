@@ -1,0 +1,28 @@
+#cmain {
+  flex: 1;
+}
+#cmain > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 25px;
+}
+
+#cmain label:nth-child(1),
+#cmain label:nth-child(2) {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+#cmain label select {
+  justify-self: center;
+}
+
+#cmain label input {
+  width: 50px;
+  padding: 5px;
+}
