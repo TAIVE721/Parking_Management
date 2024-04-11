@@ -11,3 +11,6 @@
 # For execute the tests 
  - npm run test
  - npm run test:ui
+
+# The app deployed
+ - https://parking-management-five.vercel.app 
