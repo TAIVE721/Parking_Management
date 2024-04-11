@@ -6,7 +6,7 @@
 
 # For execute the app with docker
  - docker compose -f docker-compose.yml up
- - Port : localhost://5173
+ - Port : http://localhost:5173
 
 # For execute the tests 
  - npm run test
