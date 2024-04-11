@@ -10,7 +10,6 @@ function App() {
     cparking: false,
     dparking: false,
   });
-
   const handleClick = (event) => {
     setNav({
       sparking: false,

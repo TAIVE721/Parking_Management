@@ -1,5 +1,3 @@
-import { GetApi } from "./src/services/Callparkings.js";
-
-GetApi().then((data) => {
-  console.log(data);
-});
+import { createRequire } from "node:module";
+const require = createRequire(import.meta.url);
+export const lector = (url) => require(url);
